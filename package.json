@@ -1,0 +1,21 @@
+{
+  "name": "@mlg/design-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design-Tokens und Basiskomponenten der MLG-Gruppe – geteilt von ONYX, BASALT und OPAL. Reine TypeScript-Quelle, kein Build.",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLG-Holding-AG/design-kit.git"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  }
+}
